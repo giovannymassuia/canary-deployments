@@ -1,0 +1,6 @@
+{
+    "revisionType": "AppSpecContent",
+    "appSpecContent": {
+        "content": "{\"version\":\"1\",\"Resources\":[{\"TargetService\":{\"Type\":\"AWS::ECS::Service\",\"Properties\":{\"TaskDefinition\":\"arn:aws:ecs:us-east-1:983784313669:task-definition/my-task-def:16\",\"LoadBalancerInfo\":{\"ContainerName\":\"my-app\",\"ContainerPort\":4000}}}}]}"
+    }
+}
